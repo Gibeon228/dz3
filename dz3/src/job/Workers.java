@@ -3,7 +3,7 @@ package job;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Workers {
+public class Workers implements Sort{
     private BaseWorker[] baseWorkers;
 
     public Workers(BaseWorker[] baseWorkers) {
